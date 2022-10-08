@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class CalculadoraDeEmprestimos {
     public static void main(String[] args) {
         Scanner readInt = new Scanner(System.in);
-        double prodValue; int quant;
+        double prodValue; 
+        int quant;
         System.out.printf("Bem-vindo à loja do Sr. Jubileu! =)\nEntre com valor de produto: R$");
         prodValue = readInt.nextDouble();
         System.out.printf("Entre com quantidade de produtos: ");

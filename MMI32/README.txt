@@ -1,0 +1,1 @@
+Please be sure to check if u already have JVM installed. If dont, download here: >> https://www.java.com/pt-BR/download/

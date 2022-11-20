@@ -53,12 +53,11 @@ class MMIFRAME extends JFrame {
         this.mmiTxt.setPreferredSize(new Dimension(295, 25));
         this.genMMI.addActionListener(event -> {
             try {
-                int parseInt = (mmiGenerator(Integer.parseInt(mmiTxt.getText())) == 0) ? 0 : mmiGenerator(Integer.parseInt(mmiTxt.getText()));
-                if (parseInt == 0){
+                if ((mmiGenerator(Integer.parseInt(mmiTxt.getText()))) == 0){
                     JOptionPane.showMessageDialog(null, "Digite um inteiro primo!");
                 }
                 else {
-                    JOptionPane.showMessageDialog(null, "MMI: " + parseInt);
+                    JOptionPane.showMessageDialog(null, "MMI: " + mmiGenerator(Integer.parseInt(mmiTxt.getText())));
                 }
             } catch (NumberFormatException excpt) {
                 JOptionPane.showMessageDialog(null, "Apenas numerais de até 10 dígitos permitidos!");

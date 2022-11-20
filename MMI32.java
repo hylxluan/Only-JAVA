@@ -1,4 +1,6 @@
 //Do the Modular Multiplicative Inverse of a impar >>
+//Be sure for check if u already have JVM installed. Later xD!!
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
